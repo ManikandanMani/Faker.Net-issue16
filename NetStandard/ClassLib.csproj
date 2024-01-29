@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <!--<TargetFrameworks>net6.0</TargetFrameworks>-->
+	  <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker.Net" Version="2.0.163" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Reference Include="Faker.Net.Standard.2.0">
+      <HintPath>..\..\package\faker-cs\src\Faker.Net.Standard.2.0\bin\Debug\netstandard2.0\Faker.Net.Standard.2.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>-->
+
+</Project>
